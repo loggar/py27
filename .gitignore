@@ -1,0 +1,16 @@
+# log
+*.log
+_log/
+
+# visual studio code
+.vscode
+
+# pytest
+.pytest_cache/
+__pycache__/
+
+# dist
+dist
+
+# python virtualenv
+.venv
