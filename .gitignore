@@ -9,6 +9,9 @@ _log/
 .pytest_cache/
 __pycache__/
 
+# python chache
+*.pyc
+
 # dist
 dist
 
