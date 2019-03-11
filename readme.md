@@ -17,8 +17,21 @@ $ .venv\Scripts\Activate.ps1
 $ . ./venv/activate
 ```
 
+## env variables for codecache
+
+```
+# Windows powershell
+(.venv) $Env:PYTHONDONTWRITEBYTECODE = 'True'
+```
+
 ## install packages
 
 ```
 (.venv) pip install -r requirements.txt
+```
+
+## pytest
+
+```
+pytest
 ```
